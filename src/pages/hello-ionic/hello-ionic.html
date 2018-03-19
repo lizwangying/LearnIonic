@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Hello Ionic</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <p>
+    <button ion-button color="primary" (click)="track1()">track(String eventId)</button>
+  </p>
+
+  <p>
+    <button ion-button color="primary" (click)="track2()">track(String eventId, Number number)</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="track3()">track(String eventId, Object eventLevelVariable)</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="track4()">track(String eventId, Number number, Object eventLevelVariable)</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="trackWithNumber()">trackWithNumber</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="setEvar()">setEvar</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="setPeopleVariable()">setPeopleVariable</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="setUserId()">setUserId</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="clearUserId()">clearUserId</button>
+  </p>
+
+
+  <p>
+    <button ion-button color="primary" (click)="page()">page</button>
+  </p>
+
+
+
+
+</ion-content>
